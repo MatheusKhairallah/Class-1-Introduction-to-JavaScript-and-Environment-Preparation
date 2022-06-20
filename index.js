@@ -17,3 +17,24 @@ console.log(a == b && typeof a == "string");
 
 //Compara se pelomenos uma das condições são verdadeiras
 console.log(a === b || typeof a == "number");
+
+                //<=====================================================>
+
+let cor = "verde";
+
+/*Estrutura que controla quais comandos serão executados baseados em cada condição 
+especificada*/
+//If - "Se"; Else If - "Senão se"; Else - "Senão"
+if (cor === "verde") {
+    
+    console.log("siga");
+    
+} else if (cor === "amarelo") {
+    
+    console.log("atenção");
+
+} else {
+    
+    console.log("pare");
+
+}
